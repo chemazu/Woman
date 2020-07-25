@@ -1,0 +1,75 @@
+.Footer {
+  background-color: #406257;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  .right {
+    h2 {
+      height: 50px;
+    }
+    background-color: #76b09e;
+    padding: 50px;
+  }
+  .left {
+    padding: 50px;
+  }
+}
+.leftLinks {
+  display: flex;
+
+  justify-content: center;
+  div {
+    padding-top: 10px;
+    flex-basis: 100%;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #1a1a1a;
+  font-family: "OakesGroteskBold";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+  padding: 0px;
+  font-weight: normal;
+  font-family: "OakesGroteskRegular", Arial, Helvetica, sans-serif;
+}
+.footerLogoWrapper {
+  width: 20%;
+  max-width: 250px;
+  max-height: 100px;
+  padding-top: 20px;
+}
+.reservationButton {
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  width: 55%;
+  max-width: 230px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.socialLogoWrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  img {
+    width: 30px;
+    padding-right: 15px;
+  }
+}
+.rightText {
+  font-size: 24px;
+  line-height: 48px;
+  color: #1a1a1a;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
