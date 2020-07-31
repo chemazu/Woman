@@ -3,6 +3,7 @@ import "./Home.scss";
 import Input from "../../Custom/Input/Input";
 import right from "../../Custom/Images/right.jpg";
 import Subscribe from "../../Custom/Subscribe/Subscribe";
+import ShopPopUp from "../../Custom/ShopPopUp/ShopPopUp";
 
 export default function Home() {
   return (
@@ -40,11 +41,12 @@ export default function Home() {
         <p style={{ maxWidth: "800px" }}>
           Here at Quay Woman, we sell sustainable products that are sourced
           through eco-friendly products all profits are donated to a charity
-          that assist in the development of disenfranchised youth{" "}
+          that assist in the development of disenfranchised youth
         </p>
         <p className="reservationButton">Shop Now</p>
       </div>
       <Subscribe />
+      {/* <ShopPopUp /> */}
     </div>
   );
 }

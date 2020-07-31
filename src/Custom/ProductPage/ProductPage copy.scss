@@ -1,0 +1,38 @@
+.ProductInformation {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-column-gap: 20px;
+}
+.productImages {
+  display: flex;
+  flex-direction: column;
+}
+.big {
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  img {
+    width: 36vw;
+  }
+}
+.small {
+  padding-bottom: 15px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  img {
+    width: 23.75vw;
+  }
+}
+.productActions {
+  left: 73vw;
+  background-color: yellow;
+  z-index: 20;
+}
+.additonalProducts {
+  background-color: purple;
+  height: 300px;
+  z-index: 20;
+}

@@ -1,0 +1,24 @@
+.ShopPopUp {
+  //   background-color: #406257;
+  background-color: orange;
+  width: 500px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.popUp {
+  display: flex;
+  flex-direction: column;
+  * {
+    margin-bottom: 10px;
+  }
+  p {
+    border-bottom: 2px solid black;
+  }
+}
+.pop1 {
+  background: url(../Images/one.jpg) no-repeat center center fixed;
+  background-size: cover;
+}

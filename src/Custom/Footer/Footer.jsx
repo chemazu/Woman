@@ -1,9 +1,9 @@
 import React from "react";
-import "./Footer.scss";
 import Quay from "../Images/Quay.svg";
 import ig from "../Images/instagram.svg";
 import yt from "../Images/youtube.svg";
 import pt from "../Images/pinterest.svg";
+import "./Footer.scss";
 
 export default function Footer() {
   return (
@@ -16,7 +16,8 @@ export default function Footer() {
           <div>
             <h2>SITEMAP</h2>
             <p>About</p>
-            <p>Menu</p> <p>News </p>
+            <p>Menu</p>
+            <p>News </p>
             <p>Gift </p>
             <p>Vouchers </p>
             <p>News Gift Vouchers </p>
