@@ -6,6 +6,7 @@ import Shop from "./View/Shop/Shop";
 import ProductPage from "./Custom/ProductPage/ProductPage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignIn from "./View/SignIn/SignIn";
+import SignUp from "./View/SignUp/SignUp";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           <Route exact path="/shop" component={Shop}></Route>
           <Route exact path="/shop/Product" component={ProductPage}></Route>
           <Route exact path="/sign-in" component={SignIn}></Route>
+          <Route exact path="/sign-up" component={SignUp}></Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

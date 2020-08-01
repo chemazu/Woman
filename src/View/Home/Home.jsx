@@ -40,9 +40,9 @@ export default function Home() {
       </div>
       <div className="shop ">
         <p style={{ maxWidth: "800px" }}>
-          Here at Quay Woman, we sell sustainable products that are sourced
-          through eco-friendly products all profits are donated to a charity
-          that assist in the development of disenfranchised youth
+          Here at Quay, we sell sustainable products that are sourced through
+          eco-friendly products all profits are donated to a charity that assist
+          in the development of disenfranchised youth
         </p>
         <Link to="/shop">
           <p className="reservationButton">Shop Now</p>

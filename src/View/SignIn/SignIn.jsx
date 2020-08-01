@@ -1,7 +1,7 @@
 import React from "react";
 import scene from "../../Custom/Images/SCENE.svg";
 import Input from "../../Custom/Input/Input";
-import { googlesignIn } from "../../Firebase/firebase";
+import { signInWithGoogle } from "../../Firebase/firebase";
 
 import "./SignIn.scss";
 
@@ -19,14 +19,14 @@ export default function SignIn() {
       </div>
       <div className="signInRight">
         <div className="signInBox">
-          <h3>Sign Up</h3>
+          <h3>Sign In</h3>
           <form>
             <Input content={"Email"} type={"email"} />
             <Input content={"password"} type={"password"} />
             <div className="buttonWrapper">
               <button className="reservationButton">Sign In </button>
               <p>&nbsp;</p>
-              <button className="reservationButton" onClick={googlesignIn}>
+              <button className="reservationButton" onClick={signInWithGoogle}>
                 Sign in with Google
               </button>
             </div>
