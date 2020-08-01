@@ -4,6 +4,7 @@ import Input from "../../Custom/Input/Input";
 import right from "../../Custom/Images/right.jpg";
 import Subscribe from "../../Custom/Subscribe/Subscribe";
 import ShopPopUp from "../../Custom/ShopPopUp/ShopPopUp";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -43,7 +44,9 @@ export default function Home() {
           through eco-friendly products all profits are donated to a charity
           that assist in the development of disenfranchised youth
         </p>
-        <p className="reservationButton">Shop Now</p>
+        <Link to="/shop">
+          <p className="reservationButton">Shop Now</p>
+        </Link>
       </div>
       <Subscribe />
       {/* <ShopPopUp /> */}
