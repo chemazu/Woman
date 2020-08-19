@@ -46,7 +46,7 @@ export class SignUp extends Component {
             <form>
               <Input
                 content={"Name"}
-                type={"email"}
+                type={"text"}
                 onChange={this.handleInput}
                 name="displayName"
                 value={displayName}

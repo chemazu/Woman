@@ -23,24 +23,28 @@
     flex-basis: 100%;
   }
 }
-h2 {
-  font-size: 24px;
-  line-height: 30px;
-  color: #1a1a1a;
-  font-family: "OakesGroteskBold";
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
+
+.Footer {
+  p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+    padding: 0px;
+    font-weight: normal;
+    font-family: "OakesGroteskRegular", Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #1a1a1a;
+    font-family: "OakesGroteskBold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
 }
-p {
-  font-size: 14px;
-  line-height: 25px;
-  color: #1a1a1a;
-  letter-spacing: 1px;
-  padding: 0px;
-  font-weight: normal;
-  font-family: "OakesGroteskRegular", Arial, Helvetica, sans-serif;
-}
+
 .footerLogoWrapper {
   width: 20%;
   max-width: 250px;

@@ -12,6 +12,7 @@ export default function Home() {
       <div className="disclaimer">
         <p>
           The images used in this webpage are not a representation of the person
+          or indication of affilliation of said person.
         </p>
       </div>
       <div className="header">
@@ -22,10 +23,8 @@ export default function Home() {
       </div>
       <div className="firstSection">
         <div className="left">
-          <div className="catTitle">
-            <h1>Categories</h1>
-          </div>
           <div className="categories">
+            <h1>Categories</h1>
             <p>Art</p>
             <p>Food</p>
             <p>Fashion</p>
